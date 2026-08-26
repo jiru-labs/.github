@@ -1,4 +1,4 @@
-## Jiru-Labs
+## Jiru Labs
 
 Local-first tools for people who run AI agents on their own terms.
 
