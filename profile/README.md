@@ -36,6 +36,16 @@ machine at all.
 
 **[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/loibjoemoahkajjnfioajcibcamhdafc)** · [build from source](https://github.com/jiru-labs/proofkey#install-from-source)
 
+### [epub2audiobook](https://github.com/jiru-labs/epub2audiobook)
+
+Turns an epub into a chaptered audiobook. Gemini TTS does the narration; voice conversion against
+a single reference clip then anchors the timbre, so the voice stops changing every time the model
+starts a new generation. Resumable, and it shows the cost before it spends anything.
+
+The code is the small part. **[FINDINGS.md](https://github.com/jiru-labs/epub2audiobook/blob/main/FINDINGS.md)**
+is the research behind it: engine defects measured in semitones and hertz, the blind listening
+rounds, and the fixes that improved the numbers while sounding worse.
+
 ---
 
 ### How this is built
