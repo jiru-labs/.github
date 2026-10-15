@@ -29,10 +29,11 @@ pipx install mcp-config-audit
 
 ### [proofkey](https://github.com/jiru-labs/proofkey) &nbsp;[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/loibjoemoahkajjnfioajcibcamhdafc?color=4285F4&logo=googlechrome&logoColor=white&label=chrome%20web%20store)](https://chromewebstore.google.com/detail/loibjoemoahkajjnfioajcibcamhdafc)
 
-A Grammarly-style writing assistant for Chrome that talks to **your** LLM, with **your** API key.
-Inline underlines, a suggestion card and quick rewrite actions — the interaction model kept, the
-engine swapped for an endpoint you control. Point it at a local model and nothing leaves the
-machine at all.
+A Grammarly-style writing assistant for Chrome that talks to **your** LLM, with **your** API key,
+or needs no key at all: in Google Chrome it starts on the model Chrome keeps on your computer,
+and in Brave it can run a model inside the browser instead. Inline underlines, a suggestion card
+and quick rewrite actions — the interaction model kept, the engine swapped for one you control.
+On either of those, or pointed at a local server, nothing you check leaves the machine.
 
 **[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/loibjoemoahkajjnfioajcibcamhdafc)** · [build from source](https://github.com/jiru-labs/proofkey#install-from-source)
 
